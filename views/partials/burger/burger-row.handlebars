@@ -1,8 +1,9 @@
 <li>
 	
 	{{name}}
-
-	<button class="devour-burger" data-id="{{this.id}}">Devour!</button>
+	<button class="devour-burger" data-id="{{id}}" data-newburger="{{devour}}">
+		{{#unless devour}}Throw up what you just ate{{else}}Devour The Burger!{{/unless}}
+	</button>
 
 
 </li>

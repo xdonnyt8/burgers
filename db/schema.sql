@@ -16,4 +16,4 @@ CREATE TABLE burgers
 INSERT INTO  burgers(name) VALUE ("Hamburger");
 INSERT INTO  burgers(name) VALUE ("Cheeseburger");
 INSERT INTO  burgers(name) VALUE ("Bacon Cheese Burger");
-INSERT INTO  burgers(name) VALUE ("McDouble");
+INSERT INTO  burgers(name, devoured) VALUE ("McDouble", 1);
